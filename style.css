@@ -1,0 +1,142 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font: inherit;
+}
+
+body {
+      background-color: hsl(226, 76%, 94%);
+      font-size: 16px;
+      font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url(./images/pattern-background-desktop.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: auto;
+}
+
+.box {
+      width: 450px;
+      border-radius: 20px;
+      background-color: hsl(225, 100%, 98%);     
+}
+
+.box .image img {
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+}
+
+/*para*/
+
+.order-para {
+      padding: 0 30px 0 30px;
+      text-align: center;
+      font-family: 'Red Hat Display', sans-serif;
+}
+
+.order-para h1 {
+      font-size: 30px;
+      font-weight: 900;
+      padding: 40px 0 20px 0;
+}
+
+.order-para p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: hsl(223, 47%, 23%);
+      opacity: 0.8;
+}
+
+/*music*/
+
+.music-box {
+      margin: 20px 40px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: hsl(220, 100%, 96%);
+      border-radius: 15px;
+}
+
+.music {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+}
+
+.plan {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+}
+
+.plan h1 {
+      font-weight: 700;
+      font-size: 16px;
+}
+
+.plan span {
+      font-weight: 500;
+      opacity: 0.8;
+      color: hsl(223, 47%, 23%);
+}
+
+.music-box a {
+      font-weight: 700;
+      color: hsl(245, 75%, 52%);
+}
+
+.music-box a:hover {
+      text-decoration: none;
+      opacity: 0.7;
+      cursor: pointer;
+}
+
+.payment-btn {
+      margin: 30px 40px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: hsl(245, 75%, 52%);
+      color: white;
+      border-radius: 10px;
+
+      font-weight: 700;
+}
+
+.payment-btn:hover {
+      opacity: 0.7;
+      cursor: pointer;
+}
+
+.exit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 40px 40px 40px;
+      font-weight: 900;
+      opacity: 0.7;
+      color: hsl(223, 47%, 23%);
+}
+
+.exit:hover {
+      opacity: 1;
+      cursor: pointer;
+}
